@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="nl-nl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Html performance</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+	<div class="o-content-width">
+		<h1>Loading performance</h1>
+		<ul>
+			<li><a href="http://localhost:8000/10-css-head-js-head.html">css in head, js in head</a></li>
+			<li><a href="http://localhost:8000/20-css-head-js-head-defer.html">css in head, js in head with defer</a></li>
+			<li><a href="http://localhost:8000/30-css-head-js-head-async.html">css in head, js in head with async</a></li>
+			<li><a href="http://localhost:8000/40-css-head-js-end-body.html">css in head, js end of body</a></li>
+			<li><a href="http://localhost:8000/50-css-head-js-end-body-async.html">css in head, js end of body with async</a></li>
+			<li><a href="http://localhost:8000/60-css-head-js-end-body-dynamic.html">css in head, js end of body dynamic</a></li>
+			<li><a href="http://localhost:8000/70-css-head-js-end-body-dynamic-no-async.html">css in head, js end of body dynamic no async</a></li>
+			<li><a href="http://localhost:8000/80-critical-css-js-end-body-dynamic.html">critical css inline, rest css and js end of body dynamic</a></li>
+		</ul>
+		<h2>More info</h2>
+		<ul class="footnote">
+			<li><a href="http://javascript.tutorialhorizon.com/2015/08/11/script-async-defer-attribute/">Difference between async and defer attributes in script tags</a></li>
+			<li><a href="https://www.html5rocks.com/en/tutorials/speed/script-loading/">Deep dive into the murky waters of script loading</a></li>
+			<li><a href="https://varvy.com/pagespeed/defer-loading-javascript.html">How to really defer loading javascript</a></li>
+		</ul>
+		<!--
+		https://stackoverflow.com/questions/22294131/script-element-with-async-attribute-still-block-browser-render
+
+		The execution of any script always blocks parsing, rendering, and execution of other scripts in the same tab. The attribute async does not change that.
+
+		The only thing async does is tell the browser that the script should be fetched (assuming it's a remote file) without blocking those activities.
+
+		After the script is downloaded, the script starts executing at the next available opportunity (that is, right after the current script, if any, finishes running; a new script won't, of course, interrupt a running script). Once that happens, your rendering is blocked. So, with a fast web server, downloading happens so fast that async makes no difference at all.
+
+		If you don't want your scripts to pause rendering, use defer attribute instead of async. That will delay the execution of the script until after the document is fully loaded.
+		-->
+	</div>    
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="nl-nl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Css and JS in head; with defer | Html performance</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/dummy.css">
+
+	<script src="js/script-1-large.js" defer></script>
+	<script src="js/script-2-small.js" defer></script>
+	<script src="js/script-3-medium.js" defer></script>
+</head>
+<body>
+	<div class="o-content-width">
+		<h2>Scenario:</h2>
+		<ul>
+			<li>css in <code>head</code></li>
+			<li>javascript in <code>head</code> with attribute <code>defer</code></li>
+		</ul>
+		<h2>What happens:</h2>
+		<ul>
+			<li>document delays rendering until all css has been downloaded and executed</li>
+			<li>document continues parsing while js is being downloaded</li>
+			<li>javascript files are executed in source order, just before DOMContentLoaded is fired</li>
+		</ul>
+
+		<div class="script-status">
+			<ul id="script-status-list" class="script-status-list">
+				<li id="script-1-status">1<br><span class="script-size">L</span></li>
+				<li id="script-2-status">2<br><span class="script-size">S</span></li>
+				<li id="script-3-status">3<br><span class="script-size">M</span></li>
+			</ul>
+			<p class="footnote">
+				scripts status
+			</p>
+		</div>
+		
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten1.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten2.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten3.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten4.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+	</div>
+</body>
+</html>

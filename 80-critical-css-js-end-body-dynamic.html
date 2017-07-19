@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="nl-nl">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<title>Critical css inline; JS dynamic at end of body | Html performance</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<style>
+		@charset "UTF-8";
+
+		/* demo css */
+
+		body {
+			font-family: arial, helvetica, sans-serif;
+			line-height: 1.5;
+			color: #333;
+		}
+
+		code {
+			font-family: courier, monospace;
+			color: #009;
+		}
+
+		.o-content-width {
+			position: relative;
+			margin: 0 auto;
+			max-width: 60em;
+		}
+
+		.o-media-box {
+			margin: 0 auto;
+		}
+
+		.o-media-box img {
+			display: block;
+			max-width: 100%;
+		}
+
+		.script-status {
+			position: absolute;
+			top: 1em;
+			right: 1em;
+			text-align: right;
+		}
+
+		.script-status-list {
+			margin: 0 0 0.5em;
+			list-style-type: none;
+		}
+
+		.script-status-list > li {
+			display: inline-block;
+			position: relative;
+			border-radius: 2px;
+			padding: 0.5em;
+			width: 1em;
+			background: red;
+			color: white;
+			line-height: 0.7;
+			text-align: center;
+		}
+		.script-status-list > li.is-loaded {
+			background: green;
+		}
+
+		.script-size {
+			font-size: 0.6em;
+			font-weight: bold;
+		}
+
+		.footnote {
+			margin: 0;
+			font-size: 0.9em;
+			color: #999;
+		}
+	</style>
+</head>
+<body>
+	<div class="o-content-width">
+		<h2>Scenario:</h2>
+		<ul>
+			<li>Critical css inline in <code>head</code></li>
+			<li>Rest of css loaded dynamically by script at end of <code>body</code></li>
+			<li>javascript loaded dynamically and async by script at end of <code>body</code></li>
+		</ul>
+
+		<h2>What happens:</h2>
+		<ul>
+			<li>document delays rendering until all css has been downloaded and executed</li>
+			<li>every javascript file is executed as soon as it's loaded, regardless of source order</li>
+		</ul>
+
+		<div class="script-status">
+			<ul id="script-status-list" class="script-status-list">
+				<li id="script-1-status">1<br><span class="script-size">L</span></li>
+				<li id="script-2-status">2<br><span class="script-size">S</span></li>
+				<li id="script-3-status">3<br><span class="script-size">M</span></li>
+			</ul>
+			<p class="footnote">
+				scripts status
+			</p>
+		</div>
+		
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten1.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten2.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten3.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+		<div class="o-media-box">
+			<img src="img/kitten4.jpg" alt="">
+		</div>
+		<p>
+			Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+		</p>
+	</div>
+
+
+	<script>
+	    (function() {
+	    	/*!
+	    	Licensed MIT Modified for brevity from https://github.com/filamentgroup/loadCSS; loadCSS: load a CSS file asynchronously. [c]2014 scottjehl, Filament Group, Inc. 
+	    	*/
+	    	var addDelayedCSS = function(href, options){
+	    	    var ss = window.document.createElement('link'),
+	    	        ref = window.document.getElementsByTagName('head')[0];
+	    	    ss.rel = 'stylesheet';
+	    	    ss.href = href;
+	    	    if (options && options.id) {
+	    	        ss.id = options.id;
+	    	    }
+	    	    // temporarily, set media to something non-matching to ensure it'll
+	    	    // fetch without blocking render
+	    	    ss.media = 'only x';
+	    	    ref.parentNode.insertBefore(ss, ref);
+	    	    setTimeout( function(){
+	    	      // set media back to `all` so that the stylesheet applies once it loads
+	    	      ss.media = 'all';
+	    	    },0);
+	    	}
+
+
+	    	/**
+	    	* download javascipt at window.onload
+	    	* so it won't block the browser
+	    	* param {string | array} scriptUrls - The script(s) to load
+	    	* returns {undefined}
+	    	*/
+		    var addDelayedJS = function(scriptUrls) {
+		        // define the handler that will be called for this script(s)
+		        var onloadHandler = function() {
+		            if (typeof scriptUrls === 'string') {
+		                scriptUrls = [scriptUrls];
+		            }
+		            for (var i=0, len=scriptUrls.length; i<len; i++) {
+		                var element = document.createElement('script');
+		                element.src = scriptUrls[i];
+		                document.body.appendChild(element);   
+		            }
+		        }
+		        if (window.addEventListener) {
+		            window.addEventListener('load', onloadHandler, false);
+		        } else if (window.attachEvent) {
+		            window.attachEvent('onload', onloadHandler);
+		        } else {
+		            window.onload = onloadHandler;
+		        }
+		    }
+
+
+		    addDelayedCSS('css/style.css');
+		    addDelayedJS('js/script-1-large.js');
+		    addDelayedJS('js/script-2-small.js');
+		    addDelayedJS('js/script-3-medium.js');
+	   })();
+	</script>
+	<link rel="stylesheet" href="css/dummy.css">
+
+</body>
+</html>

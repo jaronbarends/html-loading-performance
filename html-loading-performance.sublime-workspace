@@ -1,0 +1,1893 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"retun",
+				"returnedData"
+			],
+			[
+				"setst",
+				"setstopallHandler"
+			],
+			[
+				"light",
+				"lightschangeHandler"
+			],
+			[
+				"data",
+				"dataToSend"
+			],
+			[
+				"port",
+				"portObjs"
+			],
+			[
+				"return",
+				"returnedData"
+			],
+			[
+				"watc",
+				"watchTilt"
+			],
+			[
+				"WebBl",
+				"WebBluetoothDummy"
+			],
+			[
+				"arr",
+				"array_ports"
+			],
+			[
+				"servo",
+				"servochangeHandler"
+			],
+			[
+				"F",
+				"FIRMWARE_COMPATIBILITY"
+			],
+			[
+				"Web",
+				"WebBluetoothDummy"
+			],
+			[
+				"my",
+				"mySBrick"
+			],
+			[
+				"char",
+				"characteristicUuid"
+			],
+			[
+				"check",
+				"checkDummyMode"
+			],
+			[
+				"def",
+				"defaultDriveData"
+			],
+			[
+				"ligh",
+				"lightschangeHandler"
+			],
+			[
+				"setlig",
+				"setlightsHandler"
+			],
+			[
+				"add",
+				"addSBrickEventListeners"
+			],
+			[
+				"uin",
+				"uint8ArrayInput"
+			],
+			[
+				"uitn",
+				"uint8ArrayInput"
+			],
+			[
+				"_set",
+				"_setAllChannelsIdle"
+			],
+			[
+				"just",
+				"justdoc\tfunction documentation"
+			],
+			[
+				"sbr",
+				"sbrick_name"
+			],
+			[
+				"conn",
+				"connectBtn"
+			],
+			[
+				"chann",
+				"channel1Handler"
+			],
+			[
+				"log",
+				"logBatteryPercentage"
+			],
+			[
+				"even",
+				"eventOrigin"
+			],
+			[
+				"ifr",
+				"iframeSrc"
+			],
+			[
+				"e",
+				"eprevent\te.preventDefault();"
+			],
+			[
+				"sti",
+				"stickyClass"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"esc",
+				"escListener"
+			],
+			[
+				"is",
+				"isExpanded"
+			],
+			[
+				"coll",
+				"collapseOnEscape"
+			],
+			[
+				"init",
+				"initMenuToggle"
+			],
+			[
+				"min",
+				"minDate"
+			],
+			[
+				"old",
+				"oldWidth"
+			],
+			[
+				"addT",
+				"addTouchClass"
+			],
+			[
+				"sr",
+				"srcFiles"
+			],
+			[
+				"notif",
+				"notifyTitle"
+			],
+			[
+				"font-size-default",
+				"font-size-default-px"
+			],
+			[
+				"input-p",
+				"input-padding-vert"
+			],
+			[
+				"fly",
+				"flyout-nav-padding-hor"
+			],
+			[
+				"nav",
+				"nav-border"
+			],
+			[
+				"hover",
+				"hover-transition"
+			],
+			[
+				"flu",
+				"flyout-nav-padding-bottom"
+			],
+			[
+				"flyout",
+				"flyout-nav-padding-top"
+			],
+			[
+				"font-",
+				"font-family-brand"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"don",
+				"dontUseJs"
+			],
+			[
+				"format",
+				"formatAddThisCounter"
+			],
+			[
+				"en",
+				"enhanceAddThis"
+			],
+			[
+				"discount",
+				"discountAmount"
+			],
+			[
+				"dics",
+				"discountAmount"
+			],
+			[
+				"aja",
+				"ajaxResults"
+			],
+			[
+				"chec",
+				"checkDiscountCode"
+			],
+			[
+				"track",
+				"trackpoint"
+			],
+			[
+				"first",
+				"firstPoint"
+			],
+			[
+				"fisr",
+				"firstPoint"
+			],
+			[
+				"time",
+				"timestamp"
+			],
+			[
+				"last",
+				"lastTimestamp"
+			],
+			[
+				"cald",
+				"calcSpeed"
+			],
+			[
+				"E",
+				"EVENT_MOVE"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 218286,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/lab/_Github/regular-expressions/regexps.js",
+			"settings":
+			{
+				"buffer_size": 186,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/script-1-large.js",
+			"settings":
+			{
+				"buffer_size": 83571,
+				"encoding": "UTF-8 with BOM",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "40-css-head-js-end-body.html",
+			"settings":
+			{
+				"buffer_size": 2119,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "50-css-head-js-end-body-async.html",
+			"settings":
+			{
+				"buffer_size": 2128,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<a href=\"http://javascript.tutorialhorizon.com/2015/08/11/script-async-defer-attribute/\">Difference between async and defer attributes in script tags</a>\n<a href=\"https://www.html5rocks.com/en/tutorials/speed/script-loading/\">Deep dive into the murky waters of script loading</a>\n<a href=\"https://varvy.com/pagespeed/defer-loading-javascript.html\">How to really defer loading javascript</a>\n\n\n\nhttps://stackoverflow.com/questions/22294131/script-element-with-async-attribute-still-block-browser-render\n\nThe execution of any script always blocks parsing, rendering, and execution of other scripts in the same tab. The attribute async does not change that.\n\nThe only thing async does is tell the browser that the script should be fetched (assuming it's a remote file) without blocking those activities.\n\nAfter the script is downloaded, the script starts executing at the next available opportunity (that is, right after the current script, if any, finishes running; a new script won't, of course, interrupt a running script). Once that happens, your rendering is blocked. So, with a fast web server, downloading happens so fast that async makes no difference at all.\n\nIf you don't want your scripts to pause rendering, use defer attribute instead of async. That will delay the execution of the script until after the document is fully loaded.",
+			"settings":
+			{
+				"buffer_size": 1340,
+				"line_ending": "Windows",
+				"name": "<a href=\"http://javascript.tutorialhorizon.com/201"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 242.0,
+		"last_filter": "ssx js",
+		"selected_items":
+		[
+			[
+				"ssx js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssx css",
+				"Set Syntax: CSS"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ssx mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"con",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ssx ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rein",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ssx html",
+				"Set Syntax: HTML"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ssx md",
+				"Set Syntax: Markdown"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/web/lab/_Github/html-loading-performance/_src"
+	],
+	"file_history":
+	[
+		"/C/web/lab/_Github/html-loading-performance/_src/20-css-head-js-head-defer.html",
+		"/C/web/lab/_Github/html-loading-performance/_src/30-css-head-js-head-async.html",
+		"/C/web/lab/_Github/html-loading-performance/_src/1-css-head-js-head.html",
+		"/C/web/lab/_Github/html-loading-performance/_src/index.html",
+		"/C/web/lab/_Github/html-loading-performance/_src/js/script-1-large.js",
+		"/C/web/lab/_Github/html-loading-performance/_src/css/style.css",
+		"/C/web/lab/_Github/html-loading-performance/_src/js/script-2-small.js",
+		"/C/web/lab/_Github/html-loading-performance/_src/js/script-3-medium.js",
+		"/C/web/lab/_Github/regular-expressions/regexps.js",
+		"/C/web/lab/_Github/regular-expressions/regexps.md",
+		"/C/web/lab/_Github/html-loading-performance/_src/START-WEBSERVER.bat",
+		"/C/web/lab/_Github/html-loading-performance/_src/js/melkweb-functions.js",
+		"/C/web/lab/_Github/html-loading-performance/_src/js/functions-loi.js",
+		"/C/web/Melkweb/Frontend/Melkweb/js/functions.js",
+		"/D/Web/LOI/Solution/LOI.Web.Site/Scripts/loi/functions.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/sbrick.js",
+		"/C/web/lab/_Github/sbrick-basics/src/css/sbrick-monitor.css",
+		"/C/web/lab/_Github/sbrick-basics/src/js/sbrick-events.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/controller.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/sbrick-monitor.js",
+		"/C/web/lab/_Github/sbrick-basics/src/index.html",
+		"/C/_temp jaron/datalayer/responsive-platforms.js",
+		"/P/eFocus/Clients/LOI/_Operations/loi performance/LOI JS analysis/code walkthrough jaron.md",
+		"/C/web/lab/_Github/sbrick-basics/src/node_modules/glob-watcher/test/main.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/sbrick-display.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/sbrick-with-plus-org.js",
+		"/C/web/lab/_Github/sbrick-basics/src/css/sbrick-icon.css",
+		"/C/web/lab/_Github/sbrick-basics/src/js/util.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/bluetooth-dummy.js",
+		"/C/web/lab/_Github/sbrick.js/src/sbrick.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/sbrick-no-plus.js",
+		"/C/web/lab/_Github/sbrick-basics/src/css/demo.css",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/sbrick-no-plus-org.js",
+		"/C/web/lab/_Github/sbrick-basics/src/package.json",
+		"/C/web/lab/_Github/sbrick-basics/src/.gitignore",
+		"/C/web/lab/_Github/csd-boilerplate/gulp-config.js",
+		"/C/web/lab/_Github/sbrick-basics/src/gulpfile.js",
+		"/C/web/lab/_Github/csd-boilerplate/config.json",
+		"/C/web/lab/_Github/sbrick-basics/src/gulp-config.js",
+		"/C/web/lab/_Github/sbrick-basics/src/gulp-tasks/js-gulp-tasks.js",
+		"/C/web/lab/_Github/sbrick-basics/src/gulp-tasks/watch-gulp-tasks.js",
+		"/C/web/lab/_Github/csd-boilerplate/package.json",
+		"/C/web/lab/_Github/sbrick-basics/src/sftp-config.json",
+		"/C/web/lab/_Github/sbrick-basics/resources/events.md",
+		"/C/web/lab/_Github/sbrick.js/src/sbrick.js.bak",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/bluetooth.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/bluetooth-dummy-bak.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/bluetooth-cleant-up.js",
+		"/C/web/lab/_Github/sbrick-basics/src/js/vendor/promise-queue.js",
+		"/C/_tools/sublime projects/sbrick-basics/SBrick basics.sublime-project",
+		"/C/web/lab/_Github/sbrick-basics/resources/default values toevoegen.js.md",
+		"/C/web/lab/_Github/sbrick-basics/resources/settings in android.md",
+		"/C/web/lab/_Github/sbrick-basics/js/vendor/bluetooth.js",
+		"/C/web/lab/_Github/sbrick-basics/js/vendor/sbrick.js",
+		"/C/web/lab/_Github/sbrick-basics/index.html",
+		"/C/web/lab/_Github/sbrick-basics/js/controller.js",
+		"/C/Users/jaron.barends.NL/AppData/Roaming/Sublime Text 3/Packages/User/snippets/javascript/js-param-function-documentation.sublime-snippet",
+		"/C/Users/jaron.barends.NL/AppData/Roaming/Sublime Text 3/Packages/User/snippets/javascript/es2015-arrow-function-with-documentation.sublime-snippet",
+		"/C/Users/jaron.barends.NL/AppData/Local/Atlassian/SourceTree.exe_Url_smml51z3xkwzp3fi0hp4wg34333yagvl/2.1.2.5/user.config",
+		"/C/web/lab/_Github/sbrick_clone.js/src/sbrick.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/vendor/promise-queue.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/sbrick-dummy.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/vendor/sbrick.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/index.html",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/controller.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/vendor/bluetooth.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/css/demo.css",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/vendor/sbrick-dummy.js",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-basics/js/vendor/bluetooth-cleant-up.js",
+		"/C/web/lab/_Github/promises-explanation/index.html",
+		"/C/web/lab/_Github/templates/html template/js/main.js",
+		"/C/web/lab/_Github/templates/html template/index.html",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/6-components/_components.hero.scss",
+		"/C/web/lab/_Github/sbrick/SBrick-Web-Controller/SBrick-Web-Controller-master/README.md",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/6-components/_components.teaser-grid.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/IFrame/IFrame.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_app-after-themes.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/5-objects/_objects.iframe.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_rte.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_global.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_global-layout.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/iframeMessagePoster.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/iframeMessageReceiver.js",
+		"/C/web/RHDHV/build/website/images/mockup/iframe/iframetest.html",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/app.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/6-components/_components-media-block--full-width-bg.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/Base/Hero.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_font.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/Navigation/MainNavigation.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_header.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/1-settings/_settings.variables.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/1-settings/_settings.breakpoints.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/1-settings/_settings.theme-and-colors.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_icons.scss",
+		"/C/web/RHDHV/readme.md",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/default.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/scrolling-links.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/Navigation/DisplayTemplates/CountryNavigation.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/Page/BodyScripts.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/scrolltotop.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/_stickyfill.js",
+		"/C/_temp jaron/rhdhv/iframetest.html",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/charts.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/linked-in-insight-tags.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/app-theme-orange.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/6-components/_components.contact-block.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/List/DisplayTemplates/General.Contact.cshtml",
+		"/C/web/RHDHV/build/website/css/app-theme-nereda.css",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/js/header.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/7-trumps/_trumps.dev.theme-switcher.scss",
+		"/C/web/RHDHV/build/website/css/app-theme-orange.css",
+		"/C/Users/jaron.barends.NL/AppData/Local/Temp/tmpC229.tmp.cshtml",
+		"/C/Users/jaron.barends.NL/AppData/Local/Temp/tmpBF53.tmp.cshtml",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/node_modules/caniuse-db/features-json/css-variables.json",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/_header-sticky.scss",
+		"/C/web/lab/_Github/sticky/sticky nav PoC/js/jquery.stickynav.js",
+		"/C/web/lab/_Github/sticky/sticky nav PoC/index.html",
+		"/C/web/lab/_Github/sticky/index.html",
+		"/C/web/lab/_Github/sticky/sticky-menu.css",
+		"/D/Web/RDW/Sitecore/Source/src/Rdw.nl/Static/Script/Vendor/_stickyfill.js",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/scss/7-trumps/_trumps.block-theme-bg.scss",
+		"/C/web/RHDHV/Src/Websites/RoyalHaskoningDHV.com/Views/List/Index.General.Contact.cshtml",
+		"/C/_temp jaron/code review Michael/index-jaron.html",
+		"/C/_temp jaron/code review Michael/scripts.js",
+		"/C/_temp jaron/code review Michael/scripts-comments-jaron.js",
+		"/C/_temp jaron/code review Michael/pubsub.js",
+		"/C/_temp jaron/code review Michael/pubsub-comments-jaron.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 96.0,
+		"where_history":
+		[
+			"*.js",
+			"*.*",
+			"*.js",
+			"*.*",
+			"*.js",
+			"*.scss",
+			"*.cshtml",
+			"*.*",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.js",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.*",
+			"*.cshtml",
+			"*.*",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.css",
+			"*.cshtml",
+			"*.scss",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.js",
+			"*.*",
+			"*.js",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.js",
+			"*.cshtml",
+			"*.scss",
+			"*.*",
+			"*.scss",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.js",
+			"*.*",
+			"*.cshtml",
+			"*.*",
+			"*.cshtml",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.js",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.SCSS",
+			"*.cshtml",
+			"*.*",
+			"*.scss",
+			"*.cshtml",
+			"*.js",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.html",
+			"*.*",
+			"*.cshtml",
+			"*.js",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.js",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.*",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.scss",
+			"*.cshtml",
+			"*.js",
+			"*.cshtml",
+			"*.scss",
+			"color-theme"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"http",
+			"defer",
+			"^\\s+",
+			"jQuery",
+			"^\\s+",
+			"^/s",
+			"^\\s*/{2}.*$",
+			"^\\w*/{2}.*$",
+			"^.*/{2}.*$",
+			"\\n\\n",
+			"^ ",
+			"  ",
+			"\\t",
+			"^.*/{2}.*$",
+			"^(.*\\..*)n(.*\\{)$",
+			"^(.*\\..*)o(.*\\{)$",
+			"^(.*\\..*)a(.*\\{)$",
+			"^(.*\\..*)i(.*\\{)$",
+			".pttitipn .pttitipn-ittm:nth-chbld(tvvn) {",
+			"^(.*\\..*)i(.*\\{)$",
+			"^(.*\\..*)e(.*\\{)$",
+			"^(.*\\..*)u(.*\\{)$",
+			"^(.*\\..*)e(.*\\{)$",
+			"^(.*\\..*)a(.*\\{)$",
+			"^(.*\\..*)o(.*\\{)$",
+			"^(*\\..*)o(.*\\{)$",
+			"foqus",
+			"asmx",
+			"services",
+			"zupweb",
+			"melk",
+			"myfrieslandcampina",
+			"loi",
+			"/(\\*)+(\\n.*\\*.*)*\\n.*\\*/",
+			"/(\\*)+",
+			"^/(\\*)+(\\n\\*.*)*\\n\\*/",
+			"^/\\*(\\n\\* .*)+\\n\\*/",
+			"^/\\*\\*(\\n\\* .*)+\\n\\*/",
+			"isblan",
+			"$",
+			"portcha",
+			"drivechangehandl",
+			"direction",
+			"checktemp",
+			"eventName",
+			"setstopa",
+			"stopall",
+			"stopallHandler",
+			"data",
+			"display",
+			"0",
+			"dashboard",
+			"old",
+			"deprecated",
+			"old",
+			"log",
+			"util",
+			"drive",
+			"quickdr",
+			"quickdrive",
+			"port:",
+			"log",
+			"SBRICKNAME",
+			"log",
+			"SBRICKNAME",
+			"channel",
+			"setting",
+			"drive",
+			"channel",
+			"getchanneldata",
+			"overlay",
+			"updateConnectionState",
+			"connecthan",
+			"bottom",
+			"version",
+			"PORT",
+			"getpor",
+			"getportch",
+			"getportcha",
+			"CHANN",
+			"adc",
+			"{hexId: ",
+			"hexId",
+			"_adc",
+			"ac",
+			"acd",
+			"CMD_ADC_VOLT",
+			"adc",
+			"_getPortChannels",
+			"CHANNEL",
+			"PORT",
+			"_pvm",
+			"PORT",
+			"CHANNEL",
+			"channel",
+			"channel_hex",
+			"port[",
+			"PORT0",
+			"array_ports",
+			"_pvm",
+			"stop(",
+			"array_ports",
+			"command",
+			"channel",
+			"busy",
+			"allchannelsar",
+			"array",
+			"stopAll",
+			"head",
+			"pvm",
+			"port",
+			"pvm",
+			"_pvm",
+			"in the",
+			"stopall",
+			"this.ports[portId]",
+			"defaultdrivedata",
+			"setdriveHandler",
+			"portid",
+			"this.ports[port]",
+			"_log",
+			"this._log",
+			"this.ports[portId]",
+			"port[",
+			"port0",
+			"drive",
+			"--",
+			"0"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"zup",
+			"",
+			"\\n",
+			"",
+			"$1a$2",
+			"$1s$2",
+			"$1l$2",
+			"$1b$2",
+			"$1t$2",
+			"$1v$2",
+			"$1g$2",
+			"$1p$2",
+			"p",
+			"zup",
+			"jpg",
+			"zip",
+			"zup",
+			"",
+			"succesEventName",
+			"window.util.log",
+			"port",
+			"portObjs",
+			"portIds",
+			"port",
+			"portId",
+			"port",
+			"Port",
+			"port",
+			"portId",
+			"mySBrick",
+			"func",
+			"@param \\{$1} $2 - ",
+			"@param \\{$1} - ",
+			"channelIds",
+			"channelArrayZup",
+			"CHANNEL_$1_HEX_ID",
+			"channel",
+			"channelHexIds",
+			"channelId",
+			"channelSettings",
+			"channelIdx",
+			"this.channels",
+			"deviceId",
+			"deviceType",
+			"device",
+			"data-device",
+			"functionType",
+			"data-function-type",
+			"ch0",
+			"initControlPanel",
+			"controlPanel",
+			"updateConnectionState",
+			"sticky-header-animation-duration",
+			"tertiary",
+			"signedInToMyNereda",
+			"eventsArray",
+			"my-nereda-nav",
+			" \\| ",
+			"$color-linelightgrey",
+			"grid-teaser",
+			"",
+			"loader",
+			"hero-loader-animation",
+			"primary-nav-hover-effect",
+			"$color-theme",
+			"$tweakpoint-header-main-nav-font-size",
+			"",
+			"article",
+			"",
+			".bodyBox-blog",
+			"",
+			"color-theme-hover",
+			"color-theme",
+			"",
+			"mediablock",
+			"$input-border-width",
+			"f=\"/about-us",
+			"href=\"/$1/\"",
+			"-",
+			"<a href=\"\\L$2\">$1$2",
+			"<a href=\"$2\">$1$2",
+			"darkerImageClass",
+			"makeImageDarker",
+			"true",
+			"$color-white",
+			"$color-panel-gradient-bottom",
+			"$color-panel-gradient-top",
+			"panel-gradient",
+			" !default;",
+			"o-content-width",
+			"header-image",
+			"headerImage",
+			"collapsed expandeda",
+			"country-nav__sub-nav-list",
+			"has-sub-nav",
+			"font-family-brand",
+			".js-toggle ",
+			"js-toggle ",
+			"js-toggle-panel--is-$1",
+			"js-toggle-panel",
+			"js-toggle-panel js-toggle-panel--is-collapsed",
+			"js-toggle js-toggle--is-collapsed",
+			"\"js-toggle js-toggle--is-collapsed ",
+			"flyout-panel",
+			"cms-text-bg",
+			"",
+			"cms-text-bg-transparent",
+			"//$1",
+			"header__menu-toggle",
+			"//$1",
+			"$breakpoint-header",
+			"min-width: $md-min",
+			"$sm-max",
+			"max-width: $breakpoint-sm-max",
+			"$font-stack-brand-bold;",
+			"$font-stack-brand;",
+			"$color-textgrey;",
+			"$color-error-red;",
+			"$color-linelightgrey;",
+			"$color-textverylightgrey;",
+			"$color-textlightgrey;",
+			"$color-textgrey",
+			"$color-textgrey;",
+			"$color-hovergreen;",
+			"$color-green;",
+			"$color-backgroundblue;",
+			"$color-lightblue;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 218286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								34,
+								34
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/web/lab/_Github/regular-expressions/regexps.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/script-1-large.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 83571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52997,
+								52997
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"sftp_duplicate_views": 0,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 32456.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "40-css-head-js-end-body.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2119,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								741,
+								741
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "50-css-head-js-end-body-async.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2128,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1376,
+								1376
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								840,
+								840
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<a href=\"http://javascript.tutorialhorizon.com/201",
+							"incomplete_sync": null,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 144.0
+	},
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"pinned_build_system": "",
+	"project": "html-loading-performance.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"css\\style.css"
+			],
+			[
+				"contro",
+				"js\\controller.js"
+			],
+			[
+				"main",
+				"node_modules\\glob-watcher\\test\\main.js"
+			],
+			[
+				"sbrick",
+				"js\\vendor\\sbrick.js"
+			],
+			[
+				"moni",
+				"js\\sbrick-monitor.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"sbri",
+				"js\\vendor\\sbrick.js"
+			],
+			[
+				"event",
+				"js\\sbrick-events.js"
+			],
+			[
+				"sbr",
+				"js\\vendor\\sbrick.js"
+			],
+			[
+				"dumm",
+				"js\\vendor\\bluetooth-dummy.js"
+			],
+			[
+				"de",
+				"css\\demo.css"
+			],
+			[
+				"controller",
+				"js\\controller.js"
+			],
+			[
+				"no-l",
+				"js\\vendor\\sbrick-no-plus.js"
+			],
+			[
+				"css",
+				"css\\demo.css"
+			],
+			[
+				"control",
+				"js\\controller.js"
+			],
+			[
+				"even",
+				"js\\sbrick-events.js"
+			],
+			[
+				"ooth",
+				"js\\vendor\\bluetooth-dummy.js"
+			],
+			[
+				"blue",
+				"js\\vendor\\bluetooth.js"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"cont",
+				"js\\controller.js"
+			],
+			[
+				"promis",
+				"js\\vendor\\promise-queue.js"
+			],
+			[
+				"prom",
+				"js\\vendor\\promise-queue.js"
+			],
+			[
+				"pro",
+				"js\\vendor\\promise-queue.js"
+			],
+			[
+				"pr",
+				"js\\vendor\\promise-queue.js"
+			],
+			[
+				"demo",
+				"css\\demo.css"
+			],
+			[
+				"blu",
+				"js\\vendor\\bluetooth.js"
+			],
+			[
+				"herosc",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.hero.scss"
+			],
+			[
+				"layou",
+				"RoyalHaskoningDHV.com\\scss\\_global-layout.scss"
+			],
+			[
+				"appaft",
+				"RoyalHaskoningDHV.com\\scss\\_app-after-themes.scss"
+			],
+			[
+				"app",
+				"RoyalHaskoningDHV.com\\scss\\app.scss"
+			],
+			[
+				"ifram",
+				"RoyalHaskoningDHV.com\\Views\\IFrame\\IFrame.cshtml"
+			],
+			[
+				"varia",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.variables.scss"
+			],
+			[
+				"fonts",
+				"RoyalHaskoningDHV.com\\scss\\_font.scss"
+			],
+			[
+				"break",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.breakpoints.scss"
+			],
+			[
+				"variabl",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.variables.scss"
+			],
+			[
+				"layout",
+				"RoyalHaskoningDHV.com\\scss\\_global-layout.scss"
+			],
+			[
+				"scrolltotop",
+				"RoyalHaskoningDHV.com\\js\\scrolltotop.js"
+			],
+			[
+				"body",
+				"RoyalHaskoningDHV.com\\Views\\Page\\BodyScripts.cshtml"
+			],
+			[
+				"sticky",
+				"RoyalHaskoningDHV.com\\js\\_stickyfill.js"
+			],
+			[
+				"colorssc",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors.scss"
+			],
+			[
+				"icons",
+				"RoyalHaskoningDHV.com\\scss\\_icons.scss"
+			],
+			[
+				"hero.scss",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.hero.scss"
+			],
+			[
+				"hero",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Hero.cshtml"
+			],
+			[
+				"chart",
+				"RoyalHaskoningDHV.com\\js\\charts.js"
+			],
+			[
+				"script",
+				"RoyalHaskoningDHV.com\\Views\\Page\\BodyScripts.cshtml"
+			],
+			[
+				"vari",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.variables.scss"
+			],
+			[
+				"contact",
+				"RoyalHaskoningDHV.com\\Views\\List\\DisplayTemplates\\General.Contact.cshtml"
+			],
+			[
+				"theme-or",
+				"RoyalHaskoningDHV.com\\scss\\app-theme-orange.scss"
+			],
+			[
+				"switch",
+				"RoyalHaskoningDHV.com\\scss\\7-trumps\\_trumps.dev.theme-switcher.scss"
+			],
+			[
+				"bodysc",
+				"RoyalHaskoningDHV.com\\Views\\Page\\BodyScripts.cshtml"
+			],
+			[
+				"header",
+				"RoyalHaskoningDHV.com\\scss\\_header.scss"
+			],
+			[
+				"headersc",
+				"RoyalHaskoningDHV.com\\scss\\_header.scss"
+			],
+			[
+				"colors",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors.scss"
+			],
+			[
+				"variables",
+				"RoyalHaskoningDHV.com\\node_modules\\caniuse-db\\features-json\\css-variables.json"
+			],
+			[
+				"stick",
+				"RoyalHaskoningDHV.com\\js\\_stickyfill.js"
+			],
+			[
+				"after",
+				"RoyalHaskoningDHV.com\\scss\\_app-after-themes.scss"
+			],
+			[
+				"variab",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.variables.scss"
+			],
+			[
+				"contac",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.contact-block.scss"
+			],
+			[
+				"heroscs",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.hero.scss"
+			],
+			[
+				"hero.sc",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Hero.cshtml"
+			],
+			[
+				"variable",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.variables.scss"
+			],
+			[
+				"head",
+				"RoyalHaskoningDHV.com\\Views\\Page\\Head.cshtml"
+			],
+			[
+				"rte",
+				"RoyalHaskoningDHV.com\\scss\\_rte.scss"
+			],
+			[
+				"settingsorang",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-orange.scss"
+			],
+			[
+				"theme",
+				"RoyalHaskoningDHV.com\\scss\\app-theme-orange.scss"
+			],
+			[
+				"footersc",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.footer.scss"
+			],
+			[
+				"nereda",
+				"RoyalHaskoningDHV.com\\scss\\app-theme-nereda.scss"
+			],
+			[
+				"her",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Hero.cshtml"
+			],
+			[
+				"mixins",
+				"RoyalHaskoningDHV.com\\scss\\2-tools\\_tools.mixins.scss"
+			],
+			[
+				"breakpoints",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.breakpoints.scss"
+			],
+			[
+				"clearfix",
+				"RoyalHaskoningDHV.com\\scss\\5-objects\\_objects.clearfix.scss"
+			],
+			[
+				"app.sc",
+				"RoyalHaskoningDHV.com\\scss\\app.scss"
+			],
+			[
+				"globa",
+				"RoyalHaskoningDHV.com\\scss\\_global.scss"
+			],
+			[
+				"gulpsass",
+				"RoyalHaskoningDHV.com\\gulp-tasks\\sass-gulp-tasks.js"
+			],
+			[
+				"default",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Default.cshtml"
+			],
+			[
+				"waterblog",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_theme.smart-water.components.blog.scss"
+			],
+			[
+				"font",
+				"RoyalHaskoningDHV.com\\scss\\_font.scss"
+			],
+			[
+				"extends",
+				"RoyalHaskoningDHV.com\\scss\\2-tools\\_tools.extends.scss"
+			],
+			[
+				"bodybox",
+				"RoyalHaskoningDHV.com\\Views\\Shared\\DisplayTemplates\\BodyBox.ImageTeaser.Blog.cshtml"
+			],
+			[
+				"smart-wat",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-smart-water.scss"
+			],
+			[
+				"appafter",
+				"RoyalHaskoningDHV.com\\scss\\_app-after-themes.scss"
+			],
+			[
+				"image-teaser",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_theme.smart-water.components.image-teaser.scss"
+			],
+			[
+				"purp",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-purple.scss"
+			],
+			[
+				"theme-ora",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-orange.scss"
+			],
+			[
+				"defaul",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Default.cshtml"
+			],
+			[
+				"flex",
+				"RoyalHaskoningDHV.com\\scss\\_flexslider-skin-rhdhv.scss"
+			],
+			[
+				"smartwa",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-smart-water.scss"
+			],
+			[
+				"bigscss",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.teaser-1-big-2-small.scss"
+			],
+			[
+				"image",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_theme.smart-water.components.image-teaser.scss"
+			],
+			[
+				"global-la",
+				"RoyalHaskoningDHV.com\\scss\\_global-layout.scss"
+			],
+			[
+				"global-lay",
+				"RoyalHaskoningDHV.com\\scss\\_global-layout.scss"
+			],
+			[
+				"global.sc",
+				"RoyalHaskoningDHV.com\\scss\\_global.scss"
+			],
+			[
+				"addthis",
+				"RoyalHaskoningDHV.com\\Views\\Social\\AddThisScript.cshtml"
+			],
+			[
+				"addthis.cs",
+				"RoyalHaskoningDHV.com\\Views\\Common\\AddThis.cshtml"
+			],
+			[
+				"breakpointssc",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.breakpoints.scss"
+			],
+			[
+				"print.",
+				"RoyalHaskoningDHV.com\\css\\print.css"
+			],
+			[
+				"imagetea",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_theme.smart-water.components.image-teaser.scss"
+			],
+			[
+				"1-big",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.teaser-1-big-2-small.scss"
+			],
+			[
+				"extends.sc",
+				"RoyalHaskoningDHV.com\\scss\\2-tools\\_tools.extends.scss"
+			],
+			[
+				"colorsscs",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors.scss"
+			],
+			[
+				"appsma",
+				"RoyalHaskoningDHV.com\\scss\\app-theme-smartwater.scss"
+			],
+			[
+				"appaf",
+				"RoyalHaskoningDHV.com\\scss\\_app-after-themes.scss"
+			],
+			[
+				"defaultcs",
+				"RoyalHaskoningDHV.com\\Views\\Base\\Default.cshtml"
+			],
+			[
+				"flexskin",
+				"RoyalHaskoningDHV.com\\scss\\_flexslider-skin-rhdhv.scss"
+			],
+			[
+				"skin",
+				"RoyalHaskoningDHV.com\\scss\\_colorbox-skin-rhdhv.scss"
+			],
+			[
+				"placeholdersc",
+				"RoyalHaskoningDHV.com\\scss\\2-tools\\_tools.placeholder-styles.scss"
+			],
+			[
+				"theme-wa",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-smart-water.scss"
+			],
+			[
+				"gulp-con",
+				"RoyalHaskoningDHV.com\\gulp-config.js"
+			],
+			[
+				"gulpwatch",
+				"RoyalHaskoningDHV.com\\gulp-tasks\\watch-gulp-tasks.js"
+			],
+			[
+				"gulp",
+				"RoyalHaskoningDHV.com\\gulpfile.js"
+			],
+			[
+				"country",
+				"RoyalHaskoningDHV.com\\Views\\Navigation\\DisplayTemplates\\CountryNavigation.cshtml"
+			],
+			[
+				"slider",
+				"RoyalHaskoningDHV.com\\scss\\_flexslider-skin-rhdhv.scss"
+			],
+			[
+				"toggls",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.jquery.toggle.scss"
+			],
+			[
+				"contact-b",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.contact-block.scss"
+			],
+			[
+				"global",
+				"RoyalHaskoningDHV.com\\scss\\_global.scss"
+			],
+			[
+				"togg",
+				"RoyalHaskoningDHV.com\\js\\jquery.toggle.js"
+			],
+			[
+				"jquery",
+				"RoyalHaskoningDHV.com\\js\\jquery.toggle.js"
+			],
+			[
+				"blog",
+				"RoyalHaskoningDHV.com\\scss\\_blog.scss"
+			],
+			[
+				"teasers",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.teasers.scss"
+			],
+			[
+				"rte.sc",
+				"RoyalHaskoningDHV.com\\scss\\_rte.scss"
+			],
+			[
+				"theme-and",
+				"RoyalHaskoningDHV.com\\scss\\1-settings\\_settings.theme-and-colors-blue.scss"
+			],
+			[
+				"themesc",
+				"RoyalHaskoningDHV.com\\scss\\app-theme-orange.scss"
+			],
+			[
+				"theme-",
+				"RoyalHaskoningDHV.com\\css\\app-theme-blue.css"
+			],
+			[
+				"news",
+				"RoyalHaskoningDHV.com\\Views\\ContentForm\\NewsForm.cshtml"
+			],
+			[
+				"charts",
+				"RoyalHaskoningDHV.com\\scss\\_charts.scss"
+			],
+			[
+				"app-af",
+				"RoyalHaskoningDHV.com\\scss\\_app-after-themes.scss"
+			],
+			[
+				"kpisc",
+				"RoyalHaskoningDHV.com\\scss\\6-components\\_components.kpi-unit-and-graphs.scss"
+			],
+			[
+				"headerscs",
+				"RoyalHaskoningDHV.com\\scss\\_header.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"loi",
+				"C:\\_tools\\sublime projects\\loi\\loi.sublime-project"
+			],
+			[
+				"thdh",
+				"C:\\_tools\\sublime projects\\rhdhv\\rhdhv.sublime-project"
+			],
+			[
+				"rdw",
+				"C:\\_tools\\sublime projects\\RDW\\rdw.sublime-project"
+			],
+			[
+				"rhdh",
+				"C:\\_tools\\sublime projects\\rhdhv\\rhdhv.sublime-project"
+			],
+			[
+				"gith",
+				"C:\\_tools\\sublime projects\\github\\github.sublime-project"
+			],
+			[
+				"emp",
+				"C:\\_tools\\sublime projects\\employee-stats\\employee-stats.sublime-project"
+			],
+			[
+				"reme",
+				"C:\\_tools\\sublime projects\\Remeha\\remeha.sublime-project"
+			],
+			[
+				"em",
+				"C:\\_tools\\sublime projects\\employee-stats\\employee-stats.sublime-project"
+			],
+			[
+				"vreu",
+				"C:\\_tools\\sublime projects\\vreugdenhil\\vreugdenhil.sublime-project"
+			],
+			[
+				"melkw",
+				"C:\\_tools\\sublime projects\\melkweb\\melkweb.sublime-project"
+			],
+			[
+				"empl",
+				"C:\\_tools\\sublime projects\\employee-stats\\employee-stats.sublime-project"
+			],
+			[
+				"d",
+				"C:\\_tools\\sublime projects\\d3\\d3.sublime-project"
+			],
+			[
+				"melk",
+				"C:\\_tools\\sublime projects\\melkweb\\melkweb.sublime-project"
+			],
+			[
+				"d3",
+				"C:\\_tools\\sublime projects\\d3\\d3.sublime-project"
+			],
+			[
+				"git",
+				"C:\\_tools\\sublime projects\\github\\github.sublime-project"
+			],
+			[
+				"conn",
+				"C:\\_tools\\sublime projects\\connected boot\\connected-boot.sublime-project"
+			],
+			[
+				"con",
+				"C:\\_tools\\sublime projects\\connected boot\\connected-boot.sublime-project"
+			],
+			[
+				"inst",
+				"C:\\_tools\\sublime projects\\instore\\instore.sublime-project"
+			],
+			[
+				"",
+				"C:\\_tools\\sublime projects\\instore\\instore.sublime-project"
+			],
+			[
+				"csd",
+				"C:\\_tools\\csd boilerplate.sublime-project"
+			],
+			[
+				"bol",
+				"C:\\_tools\\sublime projects\\bolton\\bolton.sublime-project"
+			],
+			[
+				"mel",
+				"C:\\_tools\\sublime projects\\melkweb\\melkweb.sublime-project"
+			],
+			[
+				"gi",
+				"C:\\web\\lab\\_Github\\efocus-boilerplate v3 testrun\\frontend\\efocus-boilerplate.sublime-project"
+			],
+			[
+				"choc",
+				"C:\\_tools\\sublime projects\\chocomel\\chocomel.sublime-project"
+			],
+			[
+				"me",
+				"C:\\_tools\\sublime projects\\melkweb.sublime-workspace"
+			],
+			[
+				"nut",
+				"C:\\_tools\\sublime projects\\nutriOpt\\nutriOpt.sublime-project"
+			],
+			[
+				"latt",
+				"C:\\_tools\\sublime projects\\lattiz.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
