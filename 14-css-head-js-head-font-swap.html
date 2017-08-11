@@ -4,32 +4,31 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	
-	<title>Css and JS in head; with async | Html performance</title>
+	<title>Css and JS in head | Html performance</title>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="css/demo.css">
-	<link rel="preload" as="font" href="css/fonts/OpenSans-Regular-webfont.woff" type="font/woff" crossorigin />
-	<link rel="preload" as="font" href="css/fonts/OpenSans-Bold-webfont.woff" type="font/woff" crossorigin />
-	<link rel="stylesheet" href="css/dummy.css">
 
-	<script src="js/script-1-large.js" async></script>
-	<script src="js/script-2-small.js" async></script>
-	<script src="js/script-3-medium.js" async></script>
+	<script src="js/script-1-large.js"></script>
+	<script src="js/script-2-small.js"></script>
+	<script src="js/script-3-medium.js"></script>
 </head>
 <body>
 	<div class="o-content-width">
 		<h2>Scenario:</h2>
 		<ul>
 			<li>css in <code>head</code></li>
-			<li>javascript in <code>head</code> with attribute <code>async</code></li>
+			<li>javascript in <code>head</code></li>
+			<li><code>font-display: swap;</code> added to <code>@font-face</code> declaration</li>
 		</ul>
 		<h2>What happens:</h2>
 		<ul>
 			<li>document delays rendering until all css has been downloaded and executed</li>
-			<li>document continues parsing while js is being downloaded</li>
-			<li>every javascript file is executed as soon as it's loaded, regardless of source order</li>
+			<li>document delays parsing until all js has been downloaded</li>
+			<li>javascript files are executed in source order</li>
+			<li>document starts downloading images after js is executed</li>
 		</ul>
 
 		<div class="script-status">
